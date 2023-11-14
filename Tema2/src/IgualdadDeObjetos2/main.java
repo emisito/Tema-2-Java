@@ -1,8 +1,11 @@
 package IgualdadDeObjetos2;
 
-public class main {
+/**
+ * @author Emi :)
+ */
 
-	public static void main(String[] args) {
+public class main {
+		public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		B b1 = new B(2);
 		B b2 = new B(2);
