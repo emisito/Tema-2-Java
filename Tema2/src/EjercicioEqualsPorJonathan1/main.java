@@ -1,5 +1,10 @@
 package EjercicioEqualsPorJonathan1;
 
+
+/**
+ * @author Emanuel Hosu
+ * Smurfing
+ */
 public class main {
 
 	public static void main(String[] args) {
