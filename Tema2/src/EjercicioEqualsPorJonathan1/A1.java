@@ -16,4 +16,12 @@ public class A1 {
 			this.num == d.num && this.b.equals(d.b)
 		);
 	}
+	
+	public A1 clone() {
+		return new A1(
+				this.num,
+				this.b.clone(), 
+				this.a.clone()
+				);
+	}
 }

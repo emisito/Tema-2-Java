@@ -14,4 +14,11 @@ public class A2 {
 			this.michar == b.michar && this.a.equals(b.a)
 		);
 	}
+	
+	public A2 clone () {
+		return new A2(
+				this.michar,
+				this.a.clone()
+				);
+	}
 }
