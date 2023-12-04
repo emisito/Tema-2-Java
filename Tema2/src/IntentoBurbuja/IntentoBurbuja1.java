@@ -2,6 +2,10 @@ package IntentoBurbuja;
 
 import java.util.Arrays;
 
+/*
+ * @author Emanuel Hosu
+ */
+
 public class IntentoBurbuja1 {
 
 	public static void main(String[] args) {
