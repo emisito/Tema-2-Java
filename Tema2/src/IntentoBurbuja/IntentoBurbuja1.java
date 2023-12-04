@@ -10,8 +10,7 @@ public class IntentoBurbuja1 {
 		int guardar = array[0];
 		
 		System.out.print("Este es mi array desordenado " + Arrays.toString(array));
-		for (int i = 0; i < array.length
-				; i++) {
+		for (int i = 0; i < array.length; i++) {
 			for (int h = 0; h < array.length - i - 1; h++) {
 				if (array[h] > array[(h + 1)]) {
 					guardar = array[h];
